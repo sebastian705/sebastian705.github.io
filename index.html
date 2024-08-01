@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portafolio</title>
+</head>
+
+<body>
+  <header class="cabecera">
+    <h2>
+      Giancarlo Valer
+    </h2>
+    <nav class="navegacion">
+      <a data-id="#sobremi">Sobre mi</a>
+      <a data-id="#proyectos">Proyectos</a>
+      <a data-id="#habilidades">Habilidades</a>
+      <a data-id="#contactos">Contactos</a>
+    </nav>
+    <button class="btn-hamburguesa">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
+
+  <main class="menu">
+    <section class="seccion-sobremi" id="sobremi">
+      <div class="sobremi-info">
+        <h2>Hola, soy Giancarlo Valer Salazar</h2>
+        <h3>Desarrollador Web</h3>
+        <p>Soy un desarrollador web apasionado con experiencia en HTML, CSS, JavaScript,
+          y frameworks como React. Me especializo en crear interfaces
+          intuitivas y optimizar el rendimiento de sitios y aplicaciones web. He trabajado
+          en proyectos diversos y tengo habilidades en backend con Node.js e integración de APIs.
+          Mi compromiso con la innovación me mantiene actualizado con las últimas tendencias en desarrollo web.
+        </p>
+        <div class="enlaces">
+          <a class="btn btn-linkedin" href="https://www.linkedin.com/in/sebastian-valer-362a61248/" target="_blank">
+            Linkedin
+          </a>
+          <a class="btn btn-github" href="https://github.com/sebastian705" target="_blank">
+            Github
+          </a>
+        </div>
+      </div>
+      <div class="sobremi-imagen">
+        <img src="img/programador.png" alt="avatar">
+      </div>
+    </section>
+
+    <section class="seccion-proyecto" id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="contenedor-proyectos">
+        <article class="tarjeta-proyecto">
+          <img src="img/carrito-compras.png" alt="Avatar" style="width:100%">
+          <div class="proyecto-info">
+            <h4>Carrito de compras</h4>
+            <p>Aplicación de carrito de compras</p>
+            <a class="btn btn-proyecto" href="https://github.com/sebastian705/carrito-compras" target="_blank">
+              Ir al proyecto
+            </a>
+          </div>
+        </article>
+
+        <article class="tarjeta-proyecto">
+          <img src="img/rick-and-morty.png" alt="Avatar" style="width:100%">
+          <div class="proyecto-info">
+            <h4>Rick and Morty</h4>
+            <p>Aplicación que consume la api de rick and morty</p>
+            <a class="btn btn-proyecto" href="https://github.com/sebastian705/rick-and-morty" target="_blank">
+              Ir al proyecto
+            </a>
+          </div>
+        </article>
+
+        <article class="tarjeta-proyecto">
+          <img src="img/paises.png" alt="Avatar" style="width:100%">
+          <div class="proyecto-info">
+            <h4>Paises App</h4>
+            <p>Aplicación que muestra todos los países, idiomas, moneda, región, etc</p>
+            <a class="btn btn-proyecto" href="https://github.com/sebastian705/paises-app" target="_blank">
+              Ir al proyecto
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion-habilidad" id="habilidades">
+      <h2>Tecnologias</h2>
+      <div class="contenedor-tecnologias">
+        <div class="tarjeta-invertida">
+          <div class="tarjeta-invertida-interior">
+            <div class="tarjeta-invertida-frente">
+              <img src="icons/html-5.png" alt="icono">
+            </div>
+            <div class="tarjeta-invertida-atras">
+              <h4>HTML</h4>
+            </div>
+          </div>
+        </div>
+        <div class="tarjeta-invertida">
+          <div class="tarjeta-invertida-interior">
+            <div class="tarjeta-invertida-frente">
+              <img src="icons/css-3.png" alt="icono">
+            </div>
+            <div class="tarjeta-invertida-atras">
+              <h4>CSS</h4>
+            </div>
+          </div>
+        </div>
+        <div class="tarjeta-invertida">
+          <div class="tarjeta-invertida-interior">
+            <div class="tarjeta-invertida-frente">
+              <img src="icons/js.png" alt="icono">
+            </div>
+            <div class="tarjeta-invertida-atras">
+              <h4>JavaScript</h4>
+            </div>
+          </div>
+        </div>
+        <div class="tarjeta-invertida">
+          <div class="tarjeta-invertida-interior">
+            <div class="tarjeta-invertida-frente">
+              <img src="icons/react.png" alt="icono">
+            </div>
+            <div class="tarjeta-invertida-atras">
+              <h4>React</h4>
+            </div>
+          </div>
+        </div>
+        <div class="tarjeta-invertida">
+          <div class="tarjeta-invertida-interior">
+            <div class="tarjeta-invertida-frente">
+              <img src="icons/bootstrap.png" alt="icono">
+            </div>
+            <div class="tarjeta-invertida-atras">
+              <h4>Bootstrap</h4>
+            </div>
+          </div>
+        </div>
+        <div class="tarjeta-invertida">
+          <div class="tarjeta-invertida-interior">
+            <div class="tarjeta-invertida-frente">
+              <img src="icons/git.png" alt="icono">
+            </div>
+            <div class="tarjeta-invertida-atras">
+              <h4>Git</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-contacto" id="contactos">
+      <h2>Contacto</h2>
+      <div class="contenedor-formulario">
+        <form action="https://formspree.io/your-email" method="POST">
+          <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Giancarlo Valer. Todos los derechos reservados.</p>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/sebastian-valer-362a61248/">LinkedIn</a></li>
+      <li><a href="https://github.com/sebastian705">GitHub</a></li>
+    </ul>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
