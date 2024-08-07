@@ -43,6 +43,7 @@ a {
   padding: 10px;
   display: block;
   color: white;
+  border-radius: 5px;
   transition: all .3s ease-in-out;
 }
 
@@ -277,6 +278,7 @@ section h2 {
 }
 
 .contenedor-formulario input {
+  font-family: inherit;
   border: 1px solid #aaa;
   display: block;
   width: 100%;
@@ -286,6 +288,8 @@ section h2 {
 }
 
 .contenedor-formulario textarea {
+  font-family: inherit;
+  resize: none;
   outline: none;
   border-radius: 5px;
   padding: 10px;
@@ -349,11 +353,13 @@ footer ul a {
     transform: translateX(130%);
     transition: transform 0.5s ease-in;
   }
-  .navegacion a{
+
+  .navegacion a {
     padding: 30px 0 !important;
     font-size: 20px;
   }
-  .navegacion.show{
+
+  .navegacion.show {
     transform: translateX(0);
   }
 
@@ -381,6 +387,9 @@ footer ul a {
     width: 150px;
     height: 150px;
   }
+  footer{
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -389,6 +398,10 @@ footer ul a {
   }
 
   .contenedor-formulario {
-    width: 350px;
+    width: 100%;
+  }
+
+  .contenedor-proyectos {
+    grid-template-columns: 1fr;
   }
 }
